@@ -26,8 +26,15 @@
       <div class="box">
         <h1 style="text-align: center; color: black">Welcome</h1>
       </div>
-      <a-marker type="custom" url="assests/pattern-hiro.patt">
-        <a-spare scale="5 5 5" position="5 5 5" color="red"></a-spare>
+      <a-marker
+        type="pattern"
+        url="assests/pattern-hiro.patt"
+        smooth="true"
+        smoothCount="10"
+        smoothTolerance=".01"
+        smoothThreshold="5"
+      >
+        <a-spare scale="5 5 5" position="0 0 0" color="red"></a-spare>
       </a-marker>
       <a-entity camera></a-entity>
     </a-scene>
