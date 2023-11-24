@@ -32,5 +32,3 @@ document.getElementById("button2").addEventListener("click", function () {
 
   console.log("Button 2 clicked. Model URL: " + assetEntity.getAttribute("gltf-model"));
 });
-
-console.log(pakaya)
