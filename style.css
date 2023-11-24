@@ -5,8 +5,10 @@ body {
 
 button {
   position: absolute;
-  bottom: 20px;
-  left: auto;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
   background-color: aliceblue;
   text-align: center;
   color: black;
