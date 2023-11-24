@@ -15,6 +15,8 @@ document.getElementById("button1").addEventListener("click", function () {
   url03 = url02;
   url02 = url01;
   url01 = temp;
+
+  console.log("Button 1 clicked. Model URL: " + assetEntity.getAttribute("gltf-model"));
 });
 
 document.getElementById("button2").addEventListener("click", function () {
@@ -27,4 +29,6 @@ document.getElementById("button2").addEventListener("click", function () {
   url01 = url02;
   url02 = url03;
   url03 = temp;
+
+  console.log("Button 2 clicked. Model URL: " + assetEntity.getAttribute("gltf-model"));
 });
