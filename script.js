@@ -1,6 +1,6 @@
-var url01 = "assets/aeroplane/scene.gltf";
-var url02 = "assets/light_aircraft/scene.gltf";
-var url03 = "assets/etrich_taube/scene.gltf";
+var url01 = "assests/aeroplane/scene.gltf";
+var url02 = "assests/light_aircraft/scene.gltf";
+var url03 = "assests/etrich_taube/scene.gltf";
 
 var ispreviousbuttonclicked = false;
 var isnextbuttonclicked = false;
