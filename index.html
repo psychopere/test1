@@ -1,39 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>WebAR sample</title>
-  <script src="https://cdn.jsdelivr.net/gh/aframevr/aframe@1c2407b26c61958baa93967b5412487cd94b290b/dist/aframe-master.min.js"></script>
-  <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
-  <style>
-    .box {
-      border: 2px solid aliceblue;
-      padding: 0%;
-      width: 100%;
-      margin: 0%;
-      background-color: aliceblue;
-    }
-  </style>
-</head>
-<body style="margin: 0px; overflow: hidden">
-  <a-scene
-    vr-mode-ui="enabled: false;"
-    renderer="logarithmicDepthBuffer: true;"
-    embedded
-    arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled:false;"
-  >
-    <div class="box">
-      <h1 style="text-align:center; color:black;">Welcome</h1></div>
-  <a-nft
-  type = "nft"
-  url=""
-  smooth="true"
-  smoothCount="10"
-  smoothTolerance=".01"
-  smoothThreshold="5">
-<a-spare scale="5 5 5" position="5 5 5" color="red"></a-spare>
-</a-nft>
-  <a-entity camera></a-entity>
-  </a-scene>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>WebAR sample</title>
+    <script src="https://cdn.jsdelivr.net/gh/aframevr/aframe@1c2407b26c61958baa93967b5412487cd94b290b/dist/aframe-master.min.js"></script>
+    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+    <script src="https://raw.githack.com/AR-js-org/AR.js/master/three.js/build/ar.js"></script>
+    <style>
+      .box {
+        border: 2px solid aliceblue;
+        padding: 0%;
+        width: 100%;
+        margin: 0%;
+        background-color: aliceblue;
+      }
+    </style>
+  </head>
+  <body style="margin: 0px; overflow: hidden">
+    <a-scene
+      vr-mode-ui="enabled: false;"
+      renderer="logarithmicDepthBuffer: true;"
+      embedded
+      arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled:false;"
+    >
+      <div class="box">
+        <h1 style="text-align: center; color: black">Welcome</h1>
+      </div>
+      <a-marker type="custom" url="assests/pattern-hiro.patt">
+        <a-spare scale="5 5 5" position="5 5 5" color="red"></a-spare>
+      </a-marker>
+      <a-entity camera></a-entity>
+    </a-scene>
+  </body>
 </html>
