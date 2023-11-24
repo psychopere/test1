@@ -1,6 +1,7 @@
 body {
   margin: 0px;
-  overflow: hidden;
+  height: auto;
+  width:auto;
 }
 
 button {
@@ -26,14 +27,20 @@ button:hover {
     border-radius: 5px;
 }
 
+h1{
+    font-family: "trajan pro", serif;
+    color:#275efe;
+}
+
 .box {
-  position: absolute;
-  top: auto;
-  border: 2px solid aliceblue;
-  padding: 0%;
-  width: 100%;
-  margin: 0%;
-  background-color: aliceblue;
+    position: absolute;
+    top: 0px;
+    align-items: center;
+    border: 0px solid aliceblue;
+    padding: 0%;
+    width: 100%;
+    margin: 0%;
+    background-color: aliceblue;
 }
 
 #button1 {

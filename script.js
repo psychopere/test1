@@ -2,9 +2,6 @@ var url01 = "assests/aeroplane/scene.gltf";
 var url02 = "assests/light_aircraft/scene.gltf";
 var url03 = "assests/etrich_taube/scene.gltf";
 
-var ispreviousbuttonclicked = false;
-var isnextbuttonclicked = false;
-
 document.getElementById("button1").addEventListener("click", function () {
   // Change the asset when the button is clicked
   var assetEntity = document.getElementById("model_01");
@@ -28,3 +25,4 @@ document.getElementById("button2").addEventListener("click", function () {
   url02 = url03;
   url03 = temp;
 });
+
