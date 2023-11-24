@@ -4,6 +4,8 @@ body{
 }
 
 button{
+    position: fixed;
+    bottom: 20px;
     background-color: aliceblue;
     text-align:center;
     color: black;
