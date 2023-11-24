@@ -7,6 +7,7 @@
     <script src="https://cdn.jsdelivr.net/gh/aframevr/aframe@1c2407b26c61958baa93967b5412487cd94b290b/dist/aframe-master.min.js"></script>
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/three.js/build/ar.js"></script>
+    <!--adding css file-->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -23,7 +24,7 @@
  <!--define the marker-->
       <a-marker
         type="pattern"
-        url="assests/pattern-hiro.patt"
+        url="assets/pattern-hiro.patt"
         smooth="true"
         smoothCount="10"
         smoothTolerance=".01"
@@ -32,7 +33,7 @@
        <!--3D assests-->
         <a-entity
           id="model_01"
-          gltf-model="assests/aeroplane/scene.gltf"
+          gltf-model="assets/aeroplane/scene.gltf"
           scale="1 1 1"
           position="0 0 0"
         >
@@ -48,6 +49,7 @@
        <!--camera-->
       <a-entity camera></a-entity>
     </a-scene>
+    <!--adding javascript-->
     <script src="script.js"></script>
   </body>
 </html>
