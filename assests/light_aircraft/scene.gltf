@@ -1,0 +1,649 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 6767,
+      "max": [
+        35.03321838378906,
+        41.780418395996094,
+        22.54174041748047
+      ],
+      "min": [
+        -35.03321838378906,
+        -25.379959106445313,
+        0.5080400109291077
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 81204,
+      "componentType": 5126,
+      "count": 6767,
+      "max": [
+        1.0,
+        0.9999433159828186,
+        0.9999997019767761
+      ],
+      "min": [
+        -1.0,
+        -0.9998647570610046,
+        -0.9999983906745911
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 6767,
+      "max": [
+        1.0,
+        0.9999799728393555
+      ],
+      "min": [
+        0.005619999952614307,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 31416,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 162408,
+      "componentType": 5126,
+      "count": 1400,
+      "max": [
+        6.050370216369629,
+        9.901530265808105,
+        17.171159744262695
+      ],
+      "min": [
+        -6.050370216369629,
+        -11.529540061950684,
+        9.26552963256836
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 179208,
+      "componentType": 5126,
+      "count": 1400,
+      "max": [
+        0.9999818205833435,
+        0.8031800985336304,
+        0.9994668364524841
+      ],
+      "min": [
+        -0.9999818205833435,
+        -0.9873356223106384,
+        -0.6272064447402954
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 54136,
+      "componentType": 5126,
+      "count": 1400,
+      "max": [
+        0.9634600281715393,
+        0.7913900017738342
+      ],
+      "min": [
+        0.0,
+        0.3443099856376648
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 125664,
+      "componentType": 5125,
+      "count": 5088,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 196008,
+      "componentType": 5126,
+      "count": 571,
+      "max": [
+        5.881360054016113,
+        9.478610038757324,
+        16.669450759887695
+      ],
+      "min": [
+        -5.881360054016113,
+        -11.266200065612793,
+        12.149200439453125
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 202860,
+      "componentType": 5126,
+      "count": 571,
+      "max": [
+        0.9998951554298401,
+        0.405630499124527,
+        0.9641534686088562
+      ],
+      "min": [
+        -0.9998951554298401,
+        -0.7378574013710022,
+        0.0028100868221372366
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 65336,
+      "componentType": 5126,
+      "count": 571,
+      "max": [
+        0.0,
+        0.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 146016,
+      "componentType": 5125,
+      "count": 2928,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 209712,
+      "componentType": 5126,
+      "count": 798,
+      "max": [
+        13.22111988067627,
+        1.3712899684906006,
+        2.7425899505615234
+      ],
+      "min": [
+        -13.22111988067627,
+        -18.88884925842285,
+        -0.3873000144958496
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 219288,
+      "componentType": 5126,
+      "count": 798,
+      "max": [
+        0.99801105260849,
+        0.8922143578529358,
+        0.8922143578529358
+      ],
+      "min": [
+        -0.99801105260849,
+        -0.8922143578529358,
+        -0.8922143578529358
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 69904,
+      "componentType": 5126,
+      "count": 798,
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 157728,
+      "componentType": 5125,
+      "count": 3420,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 228864,
+      "componentType": 5126,
+      "count": 337,
+      "max": [
+        7.29019021987915,
+        -22.034250259399414,
+        19.2177791595459
+      ],
+      "min": [
+        -7.278170108795166,
+        -23.077800750732422,
+        6.450409889221191
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 232908,
+      "componentType": 5126,
+      "count": 337,
+      "max": [
+        0.9744483828544617,
+        0.986347496509552,
+        0.9999134540557861
+      ],
+      "min": [
+        -0.9843279123306274,
+        -0.9823400974273682,
+        -0.9265342950820923
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 76288,
+      "componentType": 5126,
+      "count": 337,
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 171408,
+      "componentType": 5125,
+      "count": 1260,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "rhcreations (https://sketchfab.com/rhcreations)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/light-aircraft-a8dd34a73737448f961d226734a3fc59",
+      "title": "Light Aircraft"
+    },
+    "generator": "Sketchfab-12.64.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 176448,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 78984,
+      "byteOffset": 176448,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 236952,
+      "byteOffset": 255432,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 492384,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "images": [
+    {
+      "uri": "textures/Light_Aircraft_Material_diffuse.png"
+    },
+    {
+      "uri": "textures/Rubber_Seal_Material_diffuse.jpeg"
+    },
+    {
+      "uri": "textures/Grey_Metal_Material_diffuse.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseTexture": {
+            "index": 0
+          },
+          "glossinessFactor": 0.799999997,
+          "specularFactor": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specularGlossinessTexture": {
+            "index": 0
+          }
+        }
+      },
+      "name": "Light_Aircraft_Material"
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseTexture": {
+            "index": 1
+          },
+          "glossinessFactor": 1.0,
+          "specularFactor": [
+            0.6218877114,
+            0.6218877114,
+            0.6218877114
+          ],
+          "specularGlossinessTexture": {
+            "index": 1
+          }
+        }
+      },
+      "name": "Rubber_Seal_Material"
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "glossinessFactor": 0.4,
+          "specularFactor": [
+            0.002397326,
+            0.002397326,
+            0.002397326
+          ]
+        }
+      },
+      "name": "Glass_Material"
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseTexture": {
+            "index": 1
+          },
+          "glossinessFactor": 1.0,
+          "specularFactor": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specularGlossinessTexture": {
+            "index": 1
+          }
+        }
+      },
+      "name": "Rubber_Material"
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseTexture": {
+            "index": 2
+          },
+          "glossinessFactor": 1.0,
+          "specularFactor": [
+            0.1318281164998008,
+            0.1318281164998008,
+            0.1318281164998008
+          ]
+        }
+      },
+      "name": "Grey_Metal_Material"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Light Aircraft_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Light Aircraft_1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Light Aircraft_2",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Light Aircraft_3",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 13,
+            "POSITION": 12,
+            "TEXCOORD_0": 14
+          },
+          "indices": 15,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Light Aircraft_4",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 17,
+            "POSITION": 16,
+            "TEXCOORD_0": 18
+          },
+          "indices": 19,
+          "material": 4,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "Root"
+    },
+    {
+      "children": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "matrix": [
+        0.13115,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.13115,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.13115,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Light Aircraft"
+    },
+    {
+      "mesh": 0,
+      "name": "Light Aircraft_0"
+    },
+    {
+      "mesh": 1,
+      "name": "Light Aircraft_1"
+    },
+    {
+      "mesh": 2,
+      "name": "Light Aircraft_2"
+    },
+    {
+      "mesh": 3,
+      "name": "Light Aircraft_3"
+    },
+    {
+      "mesh": 4,
+      "name": "Light Aircraft_4"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
