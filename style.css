@@ -21,6 +21,8 @@ button:hover {
 }
 
 .box {
+    position: fixed;
+    border-bottom: 0%;
     border: 2px solid aliceblue;
     padding: 0%;
     width: 100%;
