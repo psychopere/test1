@@ -9,18 +9,21 @@ button {
   transform: translateX(-50%);
   z-index: 1;
   background-color: aliceblue;
+  font-family: 'Poppins', sans-serif;
   text-align: center;
-  color: black;
+  color: #275efe;
   padding: 10px 10px;
   width: 120px;
-  font-size: 16px;
   border: none;
-  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 20px;
   cursor: pointer;
+  transition: 0.3s;
 }
 
 button:hover {
-  background-color: antiquewhite;
+    border-radius: 5px;
 }
 
 .box {
@@ -33,12 +36,12 @@ button:hover {
   background-color: aliceblue;
 }
 
-#button1{
-    position: fixed;
-    left: 20%;
+#button1 {
+  position: fixed;
+  left: 20%;
 }
 
-#button2{
-    position: fixed;
-    left: 80%;
+#button2 {
+  position: fixed;
+  left: 80%;
 }
