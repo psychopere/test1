@@ -17,6 +17,10 @@
       embedded
       arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled:false;"
     >
+
+    <a-assets>
+      <audio id="sound" src="" preload="auto"></audio>
+    </a-assets>
       <!--define the marker-->
       <a-marker
         type="pattern"
@@ -45,7 +49,9 @@
         <button id="button1">Previous</button>
         <button id="button2">Next</button>
       </div>
+<a-entity sound="src:#sound" autoplay="false">
 
+</a-entity>
       <!--camera-->
       <a-entity camera></a-entity>
     </a-scene>
