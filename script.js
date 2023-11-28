@@ -28,7 +28,7 @@ document.getElementById("button2").addEventListener("click", function () {
 
 AFRAME.registerComponent('soundhandler', {
   tick: function () {
-         var entity = document.querySelector('[sound]');
+         var entity = document.querySelector('sound');
        if (document.querySelector('a-marker').object3D.visible == true) {
           entity.components.sound.playSound();
       } else {
