@@ -1,20 +1,36 @@
 body {
   margin: 0px;
   height: auto;
-  width:auto;
+  width: auto;
 }
-
 button {
   position: absolute;
   bottom: 30px;
+position:fixed;
+  left: 50%;
   transform: translateX(-50%);
   z-index: 1;
+  border-radius: 50%; /* Make it round */
+  width: 60px; /* Set a fixed width */
+  height: 60px; /* Set a fixed height */
+  background-color: aliceblue; /* Button background color */
+  border: none; /* Remove border */
+  cursor: pointer; /* Add cursor pointer on hover */
+}
+
+/* Style for the play button image */
+button img {
+  width: 100%; /* Make the image fill the button */
+  height: auto; /* Maintain aspect ratio */
+}
+.button {
   background-color: aliceblue;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-align: center;
   color: #275efe;
   padding: 10px 10px;
   width: 120px;
+  height: 2.5rem;
   border: none;
   font-size: 16px;
   font-weight: 500;
@@ -23,25 +39,25 @@ button {
   transition: 0.3s;
 }
 
-button:hover {
-    border-radius: 5px;
-}
-
-h1{
-    font-family: "trajan pro", serif;
-    color:#275efe;
+.button:hover {
+  border-radius: 5px;
 }
 
 .box {
-    z-index: 1;
-    position: absolute;
-    top: 0px;
-    align-items: center;
-    border: 0px solid aliceblue;
-    padding: 0%;
-    width: 100%;
-    margin: 0%;
-    background-color: aliceblue;
+  z-index: 1;
+  position: absolute;
+  top: 0px;
+  align-items: center;
+  border: 0px solid aliceblue;
+  padding: 0%;
+  width: 100%;
+  margin: 0%;
+  background-color: aliceblue;
+}
+
+h1 {
+  font-family: "trajan pro", serif;
+  color: #275efe;
 }
 
 #button1 {
@@ -53,3 +69,4 @@ h1{
   position: fixed;
   left: 80%;
 }
+
