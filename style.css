@@ -6,7 +6,7 @@ body {
 button {
   position: absolute;
   bottom: 30px;
-position:fixed;
+  position: fixed;
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
@@ -69,4 +69,3 @@ h1 {
   position: fixed;
   left: 80%;
 }
-
