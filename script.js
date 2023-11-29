@@ -34,5 +34,6 @@ function playAudio() {
         console.log("playing")
     } else {
         audio.pause();
+        console.log("not playing")
     }
 }
