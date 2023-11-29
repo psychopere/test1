@@ -26,7 +26,7 @@ document.getElementById("button2").addEventListener("click", function () {
   url03 = temp;
 });
 
-var audio = document.getElementById("myAudio");
+var audio = document.getElementById("sound");
 
 function playAudio() {
     if (audio.paused) {
