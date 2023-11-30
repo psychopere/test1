@@ -26,12 +26,20 @@ document.getElementById("button2").addEventListener("click", function () {
   url03 = temp;
 });
 
-var audio = document.getElementById("sound");
+//var audio = document.getElementById("sound");
 
-function playAudio() {
+/*function playAudio() {
     if (audio.paused) {
         audio.play();
     } else {
         audio.pause();
     }
-}
+}*/
+
+document.addEventListener('markerFound', function () {
+  // Get the audio element
+  var audio = document.getElementById('audio');
+
+  // Play the audio
+  audio.play();
+});
