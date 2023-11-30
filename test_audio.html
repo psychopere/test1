@@ -11,39 +11,12 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <a-scene
-      vr-mode-ui="enabled: false;"
-      renderer="logarithmicDepthBuffer: true;"
-      embedded
-      arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled:false;"
-    >
-
-    
-      <!--define the marker-->
-      <a-marker
-        type="pattern"
-        url="assests/pattern-hiro.patt"
-        smooth="true"
-        smoothCount="5"
-        smoothTolerance=".01"
-        smoothThreshold="3"
-      >
-        <!--3D assests-->
-        <a-entity
-          id="model_01"
-          gltf-model="assests/aeroplane/scene.gltf"
-          scale="0.5 0.5 0.5"
-          position="0 0 0"
-        >
-        </a-entity>
-      </a-marker>
-      <audio id="sound">
+ <div>
+    <audio id="sound">
         <source src="assests/sound.mp3" preload="auto">
       </audio>
-      <!--buttons-->
-      <div>
         <!--Heading-->
-        <div class="box">
+       <!-- <div class="box">
           <h1 style="text-align: center">Aircraft Museum</h1>
         </div>
 
@@ -54,13 +27,11 @@
       </button>
       
         <button class="button" id="button2">Next</button>
-      </div>
+      </div>-->
 
-</a-entity>
-      <!--camera-->
-      <a-entity camera></a-entity>
-    </a-scene>
-    <!--adding javascript-->
-    <script src="script.js"></script>
+      <button onclick="playAudio()">
+        <img src="assests/play.png" alt="Play">
+    </button>
+      <script src="script.js"></script>
   </body>
 </html>

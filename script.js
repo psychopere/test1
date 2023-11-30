@@ -31,9 +31,7 @@ var audio = document.getElementById("sound");
 function playAudio() {
     if (audio.paused) {
         audio.play();
-        console.log("playing")
     } else {
         audio.pause();
-        console.log("not playing")
     }
 }
